@@ -23,6 +23,18 @@ correctButton.addEventListener('click', ()=>{
   sendApiRequest();
 })
 
+let incorrectButton1 = document.getElementById("answer2");
+incorrectButton1.addEventListener('click', ()=>{
+  alert("the answer is wrong!");
+})
+let incorrectButton2 = document.getElementById("answer3");
+incorrectButton2.addEventListener('click', ()=>{
+  alert("the answer is wrong!");
+})
+let incorrectButton3 = document.getElementById("answer4");
+incorrectButton3.addEventListener('click', ()=>{
+  alert("the answer is wrong!");
+})
 
 /* function useApiData(){
   document.getElementById('category').innerHTML = `Category : ${data.results[0].category}`
